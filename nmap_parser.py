@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-root = ET.parse('results.xml').getroot()
+root = ET.parse('../results.xml').getroot()
 
 def parse_file():
     final_res = {}
